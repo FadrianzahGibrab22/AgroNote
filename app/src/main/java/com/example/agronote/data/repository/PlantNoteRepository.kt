@@ -28,7 +28,11 @@ class PlantNoteRepository(
     }
 
     suspend fun deleteNote(id: String) {
-        dao.softDeleteNote(id)
+        // 1. Hapus dari database lokal (Room)
+        dao.hardDeleteNote(id)
+
+        // 2. Langsung hapus dari server Cloud Firestore!
+        firebaseService.deleteNoteFromCloud(id)
     }
 
     suspend fun syncPendingNotes(): Boolean {

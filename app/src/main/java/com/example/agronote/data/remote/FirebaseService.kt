@@ -52,4 +52,17 @@ class FirebaseService(private val context: Context) {
             false
         }
     }
+
+    suspend fun deleteNoteFromCloud(noteId: String): Boolean {
+        return try {
+            val task = firestore.collection("plant_notes")
+                .document(noteId)
+                .delete()
+            Tasks.await(task)
+            true
+        } catch (e: Exception) {
+            e.printStackTrace()
+            false
+        }
+    }
 }
