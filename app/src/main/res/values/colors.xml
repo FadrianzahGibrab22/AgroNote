@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Tema AgroNote -->
+    <color name="primary_dark_green">#133E2B</color>
+    <color name="primary_green">#1B4D36</color>
+    <color name="accent_green">#2D6A4F</color>
+    <color name="bg_light_sage">#EEF4EE</color>
+    <color name="bg_screen">#F8FAF8</color>
+    <color name="text_dark">#1A2E22</color>
+    <color name="text_muted">#718278</color>
+    <color name="border_light">#E0E7E1</color>
+    <color name="border_dashed">#98B8A5</color>
+
+    <!-- Badge Kondisi -->
+    <color name="badge_healthy_bg">#DDF4E4</color>
+    <color name="badge_healthy_text">#1F6A38</color>
+
+    <color name="badge_attention_bg">#FCE8D3</color>
+    <color name="badge_attention_text">#A75A1B</color>
+
+    <color name="badge_recovering_bg">#E1ECE6</color>
+    <color name="badge_recovering_text">#3E6B56</color>
+
+    <color name="badge_offline_bg">#F7EADA</color>
+    <color name="badge_offline_text">#9C6228</color>
+
+    <color name="badge_online_bg">#DDF4E4</color>
+    <color name="badge_online_text">#1F6A38</color>
+
+    <!-- Tombol Aksi Hapus -->
+    <color name="btn_delete_bg">#FDECEC</color>
+    <color name="btn_delete_text">#B93838</color>
+</resources>

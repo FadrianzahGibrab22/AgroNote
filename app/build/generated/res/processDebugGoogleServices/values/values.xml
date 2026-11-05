@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">828666223019</string>
+    <string name="google_api_key" translatable="false">AIzaSyDGfqd5PYxCFM7itY36PfvzJnp6UmtKaME</string>
+    <string name="google_app_id" translatable="false">1:828666223019:android:04da73aec4210e82719aee</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDGfqd5PYxCFM7itY36PfvzJnp6UmtKaME</string>
+    <string name="google_storage_bucket" translatable="false">agronote-16f72.firebasestorage.app</string>
+    <string name="project_id" translatable="false">agronote-16f72</string>
+</resources>

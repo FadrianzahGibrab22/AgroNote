@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.AgroNote" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_dark_green</item>
+        <item name="android:statusBarColor">@color/bg_light_sage</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.AgroNote" parent="Base.Theme.AgroNote" />
+
+    <style name="RoundedImageCorner">
+        <item name="cornerSize">14dp</item>
+    </style>
+
+    <style name="RoundedHeroCorner">
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeBottomLeft">32dp</item>
+        <item name="cornerSizeBottomRight">32dp</item>
+    </style>
+</resources>

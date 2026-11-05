@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_green">#2D6A4F</color>
+    <color name="badge_attention_bg">#FCE8D3</color>
+    <color name="badge_attention_text">#A75A1B</color>
+    <color name="badge_healthy_bg">#DDF4E4</color>
+    <color name="badge_healthy_text">#1F6A38</color>
+    <color name="badge_offline_bg">#F7EADA</color>
+    <color name="badge_offline_text">#9C6228</color>
+    <color name="badge_online_bg">#DDF4E4</color>
+    <color name="badge_online_text">#1F6A38</color>
+    <color name="badge_recovering_bg">#E1ECE6</color>
+    <color name="badge_recovering_text">#3E6B56</color>
+    <color name="bg_light_sage">#EEF4EE</color>
+    <color name="bg_screen">#F8FAF8</color>
+    <color name="black">#FF000000</color>
+    <color name="border_dashed">#98B8A5</color>
+    <color name="border_light">#E0E7E1</color>
+    <color name="btn_delete_bg">#FDECEC</color>
+    <color name="btn_delete_text">#B93838</color>
+    <color name="primary_dark_green">#133E2B</color>
+    <color name="primary_green">#1B4D36</color>
+    <color name="text_dark">#1A2E22</color>
+    <color name="text_muted">#718278</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">AgroNote</string>
+    <string name="gcm_defaultSenderId" translatable="false">828666223019</string>
+    <string name="google_api_key" translatable="false">AIzaSyDGfqd5PYxCFM7itY36PfvzJnp6UmtKaME</string>
+    <string name="google_app_id" translatable="false">1:828666223019:android:04da73aec4210e82719aee</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDGfqd5PYxCFM7itY36PfvzJnp6UmtKaME</string>
+    <string name="google_storage_bucket" translatable="false">agronote-16f72.firebasestorage.app</string>
+    <string name="project_id" translatable="false">agronote-16f72</string>
+    <style name="Base.Theme.AgroNote" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_dark_green</item>
+        <item name="android:statusBarColor">@color/bg_light_sage</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="RoundedHeroCorner">
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeBottomLeft">32dp</item>
+        <item name="cornerSizeBottomRight">32dp</item>
+    </style>
+    <style name="RoundedImageCorner">
+        <item name="cornerSize">14dp</item>
+    </style>
+    <style name="Theme.AgroNote" parent="Base.Theme.AgroNote"/>
+</resources>

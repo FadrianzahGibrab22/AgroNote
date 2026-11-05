@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "828666223019",
+    "project_id": "agronote-16f72",
+    "storage_bucket": "agronote-16f72.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828666223019:android:04da73aec4210e82719aee",
+        "android_client_info": {
+          "package_name": "com.example.agronote"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGfqd5PYxCFM7itY36PfvzJnp6UmtKaME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
